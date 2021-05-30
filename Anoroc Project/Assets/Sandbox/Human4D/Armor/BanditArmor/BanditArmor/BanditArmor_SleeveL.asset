@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b44acfd397fae9b4ca3cb024cce34bad, type: 3}
+  m_Name: BanditArmor_SleeveL
+  m_EditorClassIdentifier: 
+  _name: 
+  _definition: {fileID: 11400000, guid: 745ba23cdfb57e44e869237c63267edf, type: 2}
+  _layer:
+    Value: 9893a39d-b622-4f95-a992-a1367b9f5a96
+  _equipmentSlot:
+    Value: aafff783-e254-4e29-92a4-9d01bac7e5df
+  _icon: {fileID: 21300018, guid: 932eb8d5023602e45bd0f3d4e1206516, type: 3}
+  sprites:
+    keys:
+    - Value: 288bd822-cd91-4667-808a-995871ab1289
+    - Value: b7754afe-55f2-4fa4-9197-cbbab19c3445
+    - Value: fd326b7d-c939-43f9-bb7a-bece69a81e6d
+    values:
+    - {fileID: 21300018, guid: 932eb8d5023602e45bd0f3d4e1206516, type: 3}
+    - {fileID: 0}
+    - {fileID: 21300082, guid: 932eb8d5023602e45bd0f3d4e1206516, type: 3}

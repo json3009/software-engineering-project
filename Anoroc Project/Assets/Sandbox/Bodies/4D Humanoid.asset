@@ -1,0 +1,532 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517ce3d2bb9be1642ab46350eb16689a, type: 3}
+  m_Name: 4D Humanoid
+  m_EditorClassIdentifier: 
+  _bodyParts:
+    name: Root
+    id:
+      Value: e57b1984-5ca0-4d42-ba27-984a745cf77a
+    parent:
+      id: 0
+    children:
+    - id: 1
+    - id: 2
+  sides:
+  - name: Front
+    id:
+      Value: 288bd822-cd91-4667-808a-995871ab1289
+  - name: Side
+    id:
+      Value: fd326b7d-c939-43f9-bb7a-bece69a81e6d
+  - name: Back
+    id:
+      Value: b7754afe-55f2-4fa4-9197-cbbab19c3445
+  layers:
+  - name: Base
+    id:
+      Value: 50101560-ba23-455f-a6b7-2b2c00d3448f
+  - name: Skin
+    id:
+      Value: 6b72a5bd-9d21-481e-89f8-4e76872f27bf
+  - name: Equipment
+    id:
+      Value: 9893a39d-b622-4f95-a992-a1367b9f5a96
+  - name: Weapons
+    id:
+      Value: ad789140-848b-4ad9-bb89-0cddd9bf26d3
+  _defaultLayer:
+    Value: 50101560-ba23-455f-a6b7-2b2c00d3448f
+  _defaultSide:
+    Value: 288bd822-cd91-4667-808a-995871ab1289
+  renderOrder:
+    sides:
+      keys:
+      - Value: 288bd822-cd91-4667-808a-995871ab1289
+      - Value: fd326b7d-c939-43f9-bb7a-bece69a81e6d
+      - Value: b7754afe-55f2-4fa4-9197-cbbab19c3445
+      values:
+      - layers:
+          keys:
+          - Value: 50101560-ba23-455f-a6b7-2b2c00d3448f
+          - Value: ad789140-848b-4ad9-bb89-0cddd9bf26d3
+          values:
+          - RenderOrder:
+              keys:
+              - Value: 31304dae-81ef-4b0f-8070-337b3198179b
+              - Value: d1c2aadd-b733-46c3-a868-a4ce8ee221f9
+              - Value: 88a5d502-d8cb-49d3-940f-48476e9f1340
+              - Value: 4de839b0-95f8-4a5e-9048-c9c4108e4be8
+              - Value: 99ac3314-543a-48fe-931b-0ffb4e4581aa
+              - Value: 5f67bfe0-294d-4ad8-9eab-b00b3d7afbfc
+              - Value: 29cbb2d7-20d4-4355-82b5-525b7ba0241b
+              - Value: 6e0acb0b-6a1e-441d-a24a-d25ecde46cb1
+              - Value: aafff783-e254-4e29-92a4-9d01bac7e5df
+              - Value: 83857b88-8715-4f65-b355-26d251c30819
+              - Value: 001db801-b31e-4334-a10e-a3fbe988477f
+              - Value: 06eaa3ac-b450-415d-bdf9-2c327f336d3f
+              - Value: b8811f00-f85c-41b3-aa85-be27fe2abd17
+              - Value: 7199fda2-dcc4-4868-be49-36da9f0294fb
+              - Value: 69f4cb4d-d6bc-4dea-ae1f-abea1875e50e
+              - Value: 8e44c26d-1b01-4f27-9b7f-ffdcc9ded6e7
+              - Value: a7496c45-c890-4a1a-9c5d-0f9b0654bd43
+              - Value: 0199589f-40d6-4b18-b03a-2f809df4d0de
+              - Value: 4630e305-2b3b-4bdc-be08-0f6c05045087
+              values: dc0500002a03000084030000a005000078050000de030000ec040000b0040000c80500001e05000086060000720600007206000072060000720600007206000072060000a406000008070000
+          - RenderOrder:
+              keys:
+              - Value: 4de839b0-95f8-4a5e-9048-c9c4108e4be8
+              - Value: 29cbb2d7-20d4-4355-82b5-525b7ba0241b
+              values: 64050000ce040000
+        transforms:
+          keys:
+          - Value: e57b1984-5ca0-4d42-ba27-984a745cf77a
+          - Value: 31304dae-81ef-4b0f-8070-337b3198179b
+          - Value: d1c2aadd-b733-46c3-a868-a4ce8ee221f9
+          - Value: 88a5d502-d8cb-49d3-940f-48476e9f1340
+          - Value: 99ac3314-543a-48fe-931b-0ffb4e4581aa
+          - Value: 4de839b0-95f8-4a5e-9048-c9c4108e4be8
+          - Value: 6e0acb0b-6a1e-441d-a24a-d25ecde46cb1
+          - Value: 29cbb2d7-20d4-4355-82b5-525b7ba0241b
+          - Value: 83857b88-8715-4f65-b355-26d251c30819
+          - Value: aafff783-e254-4e29-92a4-9d01bac7e5df
+          - Value: 001db801-b31e-4334-a10e-a3fbe988477f
+          - Value: 06eaa3ac-b450-415d-bdf9-2c327f336d3f
+          - Value: b8811f00-f85c-41b3-aa85-be27fe2abd17
+          - Value: 69f4cb4d-d6bc-4dea-ae1f-abea1875e50e
+          - Value: 8e44c26d-1b01-4f27-9b7f-ffdcc9ded6e7
+          - Value: 7199fda2-dcc4-4868-be49-36da9f0294fb
+          - Value: 0199589f-40d6-4b18-b03a-2f809df4d0de
+          values:
+          - _position: {x: 0, y: 0, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 0.5, y: 0.5, z: 1}
+          - _position: {x: 0, y: 0.9, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 0.7, y: 0.7, z: 1}
+          - _position: {x: -0.3, y: -0.25, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0.3, y: -0.25, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: -0.45, y: 0.55, z: 0}
+            _rotation: {x: 0, y: 0, z: 340}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: -0.65, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0.45, y: 0.55, z: 0}
+            _rotation: {x: -0, y: 0, z: 19.999998}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: -0.65, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0.05, y: -0.5, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: -0.05, y: -0.5, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: 0.3, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: -0.1, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: 0.4, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: 0.5, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: -1, y: 0, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: 0, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: 0.635, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+      - layers:
+          keys:
+          - Value: 50101560-ba23-455f-a6b7-2b2c00d3448f
+          values:
+          - RenderOrder:
+              keys:
+              - Value: 31304dae-81ef-4b0f-8070-337b3198179b
+              - Value: 6e0acb0b-6a1e-441d-a24a-d25ecde46cb1
+              - Value: 29cbb2d7-20d4-4355-82b5-525b7ba0241b
+              - Value: f80568b2-3d3a-42c3-b380-c5d8507e0095
+              - Value: 83857b88-8715-4f65-b355-26d251c30819
+              - Value: 99ac3314-543a-48fe-931b-0ffb4e4581aa
+              - Value: 4de839b0-95f8-4a5e-9048-c9c4108e4be8
+              - Value: 15ee508d-72cd-4fab-bd1a-1b25682ffe9c
+              - Value: d1c2aadd-b733-46c3-a868-a4ce8ee221f9
+              - Value: 88a5d502-d8cb-49d3-940f-48476e9f1340
+              - Value: 5f67bfe0-294d-4ad8-9eab-b00b3d7afbfc
+              - Value: 4630e305-2b3b-4bdc-be08-0f6c05045087
+              - Value: 001db801-b31e-4334-a10e-a3fbe988477f
+              - Value: 06eaa3ac-b450-415d-bdf9-2c327f336d3f
+              - Value: b8811f00-f85c-41b3-aa85-be27fe2abd17
+              - Value: 7199fda2-dcc4-4868-be49-36da9f0294fb
+              - Value: 69f4cb4d-d6bc-4dea-ae1f-abea1875e50e
+              - Value: 8e44c26d-1b01-4f27-9b7f-ffdcc9ded6e7
+              - Value: a7496c45-c890-4a1a-9c5d-0f9b0654bd43
+              - Value: 0199589f-40d6-4b18-b03a-2f809df4d0de
+              values: 8a020000e8030000420400000000000092040000f000000018010000540100007c010000b8010000f401000084030000d0020000bc020000bc020000c6020000bc020000bc020000bc02000020030000
+        transforms:
+          keys:
+          - Value: 31304dae-81ef-4b0f-8070-337b3198179b
+          - Value: e57b1984-5ca0-4d42-ba27-984a745cf77a
+          - Value: 99ac3314-543a-48fe-931b-0ffb4e4581aa
+          - Value: 6e0acb0b-6a1e-441d-a24a-d25ecde46cb1
+          - Value: 29cbb2d7-20d4-4355-82b5-525b7ba0241b
+          - Value: d1c2aadd-b733-46c3-a868-a4ce8ee221f9
+          - Value: 88a5d502-d8cb-49d3-940f-48476e9f1340
+          - Value: 4de839b0-95f8-4a5e-9048-c9c4108e4be8
+          - Value: 83857b88-8715-4f65-b355-26d251c30819
+          - Value: aafff783-e254-4e29-92a4-9d01bac7e5df
+          - Value: 001db801-b31e-4334-a10e-a3fbe988477f
+          - Value: 06eaa3ac-b450-415d-bdf9-2c327f336d3f
+          - Value: b8811f00-f85c-41b3-aa85-be27fe2abd17
+          - Value: 69f4cb4d-d6bc-4dea-ae1f-abea1875e50e
+          - Value: 0199589f-40d6-4b18-b03a-2f809df4d0de
+          - Value: 4630e305-2b3b-4bdc-be08-0f6c05045087
+          values:
+          - _position: {x: 0, y: 0.9, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 0.7, y: 0.7, z: 1}
+          - _position: {x: 0, y: 0, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 0.5, y: 0.5, z: 1}
+          - _position: {x: -0.15, y: 0.6, z: 0}
+            _rotation: {x: -0, y: 0, z: 1.97}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0.15, y: 0.6, z: 0}
+            _rotation: {x: -0, y: 0, z: 0.019}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0.05, y: -0.7, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: -0.15, y: -0.19, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0.08, y: -0.25, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0.05, y: -0.7, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: -0.5, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: -0.5, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: 0.3, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: -0.6, y: -0.15, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: -0.55, y: 0.35, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0.1, y: 0.4, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: 0.635, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: 0, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+      - layers:
+          keys:
+          - Value: 50101560-ba23-455f-a6b7-2b2c00d3448f
+          values:
+          - RenderOrder:
+              keys:
+              - Value: 31304dae-81ef-4b0f-8070-337b3198179b
+              - Value: 5f67bfe0-294d-4ad8-9eab-b00b3d7afbfc
+              - Value: d1c2aadd-b733-46c3-a868-a4ce8ee221f9
+              - Value: 88a5d502-d8cb-49d3-940f-48476e9f1340
+              - Value: 99ac3314-543a-48fe-931b-0ffb4e4581aa
+              - Value: 4de839b0-95f8-4a5e-9048-c9c4108e4be8
+              - Value: 15ee508d-72cd-4fab-bd1a-1b25682ffe9c
+              - Value: 6e0acb0b-6a1e-441d-a24a-d25ecde46cb1
+              - Value: 29cbb2d7-20d4-4355-82b5-525b7ba0241b
+              - Value: f80568b2-3d3a-42c3-b380-c5d8507e0095
+              - Value: 4630e305-2b3b-4bdc-be08-0f6c05045087
+              - Value: 0199589f-40d6-4b18-b03a-2f809df4d0de
+              values: 26020000ea01000086010000ae010000820000008c000000b4000000d2000000dc00000022010000bc02000058020000
+        transforms:
+          keys:
+          - Value: 31304dae-81ef-4b0f-8070-337b3198179b
+          - Value: e57b1984-5ca0-4d42-ba27-984a745cf77a
+          - Value: 6e0acb0b-6a1e-441d-a24a-d25ecde46cb1
+          - Value: 29cbb2d7-20d4-4355-82b5-525b7ba0241b
+          - Value: 4de839b0-95f8-4a5e-9048-c9c4108e4be8
+          - Value: 99ac3314-543a-48fe-931b-0ffb4e4581aa
+          - Value: 15ee508d-72cd-4fab-bd1a-1b25682ffe9c
+          - Value: d1c2aadd-b733-46c3-a868-a4ce8ee221f9
+          - Value: 88a5d502-d8cb-49d3-940f-48476e9f1340
+          - Value: f80568b2-3d3a-42c3-b380-c5d8507e0095
+          - Value: 0199589f-40d6-4b18-b03a-2f809df4d0de
+          values:
+          - _position: {x: 0, y: 0.9, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 0.7, y: 0.7, z: 1}
+          - _position: {x: 0, y: 0, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 0.5, y: 0.5, z: 1}
+          - _position: {x: -0.45, y: 0.55, z: 0}
+            _rotation: {x: 0, y: 0, z: 340}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: -0.65, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: -0.65, z: 0}
+            _rotation: {x: -0, y: 0, z: 340}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0.45, y: 0.55, z: 0}
+            _rotation: {x: -0, y: 0, z: 19.999998}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: -0.08, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0.3, y: -0.28, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: -0.3, y: -0.28, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: -0.08, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+          - _position: {x: 0, y: 0.635, z: 0}
+            _rotation: {x: -0, y: 0, z: 0}
+            _scale: {x: 1, y: 1, z: 1}
+  references:
+    version: 1
+    00000000:
+      type: {class: , ns: , asm: }
+    00000001:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Head
+        id:
+          Value: 31304dae-81ef-4b0f-8070-337b3198179b
+        parent:
+          id: 0
+        children:
+        - id: 3
+        - id: 4
+        - id: 5
+        - id: 6
+        - id: 7
+        - id: 8
+    00000002:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Torso
+        id:
+          Value: 5f67bfe0-294d-4ad8-9eab-b00b3d7afbfc
+        parent:
+          id: 0
+        children:
+        - id: 9
+        - id: 10
+        - id: 11
+        - id: 12
+    00000003:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Beard
+        id:
+          Value: 001db801-b31e-4334-a10e-a3fbe988477f
+        parent:
+          id: 0
+        children: []
+    00000004:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Mouth
+        id:
+          Value: 06eaa3ac-b450-415d-bdf9-2c327f336d3f
+        parent:
+          id: 0
+        children: []
+    00000005:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Eyes
+        id:
+          Value: b8811f00-f85c-41b3-aa85-be27fe2abd17
+        parent:
+          id: 0
+        children:
+        - id: 13
+    00000006:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Ears
+        id:
+          Value: 69f4cb4d-d6bc-4dea-ae1f-abea1875e50e
+        parent:
+          id: 0
+        children:
+        - id: 14
+        - id: 15
+    00000007:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Hair
+        id:
+          Value: 0199589f-40d6-4b18-b03a-2f809df4d0de
+        parent:
+          id: 0
+        children: []
+    00000008:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Helmet
+        id:
+          Value: 4630e305-2b3b-4bdc-be08-0f6c05045087
+        parent:
+          id: 0
+        children: []
+    00000009:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Left Leg
+        id:
+          Value: d1c2aadd-b733-46c3-a868-a4ce8ee221f9
+        parent:
+          id: 0
+        children: []
+    0000000A:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Right Leg
+        id:
+          Value: 88a5d502-d8cb-49d3-940f-48476e9f1340
+        parent:
+          id: 0
+        children: []
+    0000000B:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Left Arm
+        id:
+          Value: 99ac3314-543a-48fe-931b-0ffb4e4581aa
+        parent:
+          id: 0
+        children:
+        - id: 16
+        - id: 17
+    0000000C:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Right Arm
+        id:
+          Value: 6e0acb0b-6a1e-441d-a24a-d25ecde46cb1
+        parent:
+          id: 0
+        children:
+        - id: 18
+        - id: 19
+    0000000D:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: EyeBrows
+        id:
+          Value: 7199fda2-dcc4-4868-be49-36da9f0294fb
+        parent:
+          id: 0
+        children: []
+    0000000E:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: EarL
+        id:
+          Value: 8e44c26d-1b01-4f27-9b7f-ffdcc9ded6e7
+        parent:
+          id: 0
+        children: []
+    0000000F:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: EarR
+        id:
+          Value: a7496c45-c890-4a1a-9c5d-0f9b0654bd43
+        parent:
+          id: 0
+        children: []
+    00000010:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Left Hand
+        id:
+          Value: 4de839b0-95f8-4a5e-9048-c9c4108e4be8
+        parent:
+          id: 0
+        children:
+        - id: 20
+    00000011:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Left Sleeve
+        id:
+          Value: aafff783-e254-4e29-92a4-9d01bac7e5df
+        parent:
+          id: 0
+        children: []
+    00000012:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Right Hand
+        id:
+          Value: 29cbb2d7-20d4-4355-82b5-525b7ba0241b
+        parent:
+          id: 0
+        children:
+        - id: 21
+    00000013:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Right Sleeve
+        id:
+          Value: 83857b88-8715-4f65-b355-26d251c30819
+        parent:
+          id: 0
+        children: []
+    00000014:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Left Fingers
+        id:
+          Value: 15ee508d-72cd-4fab-bd1a-1b25682ffe9c
+        parent:
+          id: 0
+        children: []
+    00000015:
+      type: {class: BodyPartFlag, ns: Scripts.BodySystem, asm: MainScripts}
+      data:
+        name: Right Fingers
+        id:
+          Value: f80568b2-3d3a-42c3-b380-c5d8507e0095
+        parent:
+          id: 0
+        children: []

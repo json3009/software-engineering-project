@@ -1,0 +1,77 @@
+﻿VisualElement {}
+
+.List_row{
+    color: var(--unity-colors-default-text);
+}
+
+.List_row_inverse {
+    background-color: var(--unity-colors-alternated_rows-background);
+
+}
+
+.List_row:hover, .List_row_inverse:hover{
+    background-color: var(--unity-colors-highlight-background-hover);
+}
+
+.List_row_selected:hover {
+    background-color: var(--unity-colors-highlight-background);
+}
+
+.List_row_selected {
+    background-color: var(--unity-colors-highlight-background);
+    color: white;
+}
+
+.List_view {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.List_row_reorder_icon{
+    width: 20px;
+    height: 23px;
+    align-self: center;
+}
+
+.TopInsertBorder_backup {
+    border-left-color: rgba(0, 239, 255, 255);
+    border-right-color: rgba(0, 239, 255, 255);
+    border-top-color: rgba(0, 239, 255, 255);
+    border-bottom-color: rgba(0, 239, 255, 255);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.TopInsertBorder {
+    border-top-width: 5px;
+    border-top-color: rgb(61, 129, 205);
+}
+
+.BottomInsertBorder {
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(61, 129, 205);
+}
+
+.TopMessageOverlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    flex-grow: 1;
+    background-color: rgb(181, 181, 181);
+    opacity: 0.7;
+}
+
+.TopMessageOverlay .icon{
+    align-self: center;
+    flex-grow: 1;
+    height: 50px;
+    width: 50px;
+}
+
+.hidden{
+    display: none;
+}

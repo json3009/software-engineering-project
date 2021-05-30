@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5d4bc67c554b5cbdf4533062a21461, type: 3}
+  m_Name: Bandit Body
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _spellData
+      Entry: 7
+      Data: 0|StatSystem.StatData, MainScripts
+    - Name: _modifiers
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[StatSystem.StatData+DataWrapper,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 7
+      Data: 3|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _manaUsage
+    - Name: _name
+      Entry: 1
+      Data: Mana Usage
+    - Name: _desc
+      Entry: 1
+      Data: Determines how much Mana is required to cast spell
+    - Name: _type
+      Entry: 7
+      Data: 4|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _attribute
+      Entry: 7
+      Data: 5|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: -5
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _characterData
+      Entry: 7
+      Data: 8|StatSystem.StatData, MainScripts
+    - Name: _modifiers
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[StatSystem.StatData+DataWrapper,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _dropPrefab: {fileID: 265361985307941580, guid: b20ebf514754f0041a6fd183167f4ae0, type: 3}
+  _isDroppable: 1
+  _isStackable: 0
+  _maxStack: 1
+  _item: {fileID: 11400000, guid: 55abff826aeb6334897ebffe8e2c03a6, type: 2}
+  _slot: 1
+  _spellTraits: {fileID: -6244702721713982698, guid: 707d91b6c2f2b8b44b3277e5d49f0220, type: 2}
+  _characterTraits: {fileID: 0}

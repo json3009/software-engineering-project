@@ -1,0 +1,372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6244702721713982698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9feef358775d475fa76e4763b93b243e, type: 3}
+  m_Name: Traits
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _statTypes
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[StatSystem.StatType, MainScripts]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 7
+      Data: 1|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _damage
+    - Name: _name
+      Entry: 1
+      Data: Damage
+    - Name: _desc
+      Entry: 1
+      Data: Determines how much Damage a spell will deal
+    - Name: _type
+      Entry: 7
+      Data: 2|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _manaUsage
+    - Name: _name
+      Entry: 1
+      Data: Mana Usage
+    - Name: _desc
+      Entry: 1
+      Data: Determines how much Mana is required to cast spell
+    - Name: _type
+      Entry: 9
+      Data: 2
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _availableMana
+    - Name: _name
+      Entry: 1
+      Data: Available Mana
+    - Name: _desc
+      Entry: 1
+      Data: Determines how much Mana the spell currently possesses
+    - Name: _type
+      Entry: 9
+      Data: 2
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _minManaUsage
+    - Name: _name
+      Entry: 1
+      Data: Min Mana Usage
+    - Name: _desc
+      Entry: 1
+      Data: Determines the minimum Mana required to cast spell
+    - Name: _type
+      Entry: 9
+      Data: 2
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _manaMultiplier
+    - Name: _name
+      Entry: 1
+      Data: Mana Multiplier
+    - Name: _desc
+      Entry: 1
+      Data: Determines the Mana scaling of a spell
+    - Name: _type
+      Entry: 9
+      Data: 2
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _level
+    - Name: _name
+      Entry: 1
+      Data: Level
+    - Name: _desc
+      Entry: 1
+      Data: Determines the level at which to cast a spell
+    - Name: _type
+      Entry: 7
+      Data: 8|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: StatSystem.StatAttributes.IntAttribute, MainScripts
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _sourcePos
+    - Name: _name
+      Entry: 1
+      Data: Caster Position
+    - Name: _desc
+      Entry: 1
+      Data: The Casters position
+    - Name: _type
+      Entry: 7
+      Data: 10|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: StatSystem.StatAttributes.PositionAttribute, MainScripts
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _attackDamageType
+    - Name: _name
+      Entry: 1
+      Data: Attack Damage Type
+    - Name: _desc
+      Entry: 1
+      Data: Determines the attack damage Type
+    - Name: _type
+      Entry: 7
+      Data: 12|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: CombatSystem.Stats.Attributes.DamageTypeAttribute, MainScripts
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _defenceDamageType
+    - Name: _name
+      Entry: 1
+      Data: Defence Damage Type
+    - Name: _desc
+      Entry: 1
+      Data: Determines the defence damage Type
+    - Name: _type
+      Entry: 9
+      Data: 12
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _radius
+    - Name: _name
+      Entry: 1
+      Data: Radius
+    - Name: _desc
+      Entry: 1
+      Data: Determines the radius of an Explosion
+    - Name: _type
+      Entry: 9
+      Data: 2
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _explosionPower
+    - Name: _name
+      Entry: 1
+      Data: Explosion Power
+    - Name: _desc
+      Entry: 1
+      Data: Determines the power of the explosion
+    - Name: _type
+      Entry: 9
+      Data: 2
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _range
+    - Name: _name
+      Entry: 1
+      Data: Range
+    - Name: _desc
+      Entry: 1
+      Data: Determines the range of the projectile
+    - Name: _type
+      Entry: 9
+      Data: 2
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _speed
+    - Name: _name
+      Entry: 1
+      Data: Speed
+    - Name: _desc
+      Entry: 1
+      Data: Determines the speed of the projectile
+    - Name: _type
+      Entry: 9
+      Data: 2
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _targetPos
+    - Name: _name
+      Entry: 1
+      Data: Target Position
+    - Name: _desc
+      Entry: 1
+      Data: The Targets position
+    - Name: _type
+      Entry: 9
+      Data: 10
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _statTypeReferences:
+    keys: []
+    values: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ba5b4dcc14d6b47a4675b529b48cc7, type: 3}
+  m_Name: Spell System
+  m_EditorClassIdentifier: 
+  _traits: {fileID: -6244702721713982698}
+  _damageDefinition: {fileID: 11400000, guid: 6e9ae889cbe2bd742b6892cd959647a2, type: 2}
+  _registeredArchetypes: []

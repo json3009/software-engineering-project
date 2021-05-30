@@ -1,0 +1,26 @@
+var class_combat_system_1_1_spell_system_1_1_spell_behaviour =
+[
+    [ "ImpactCall", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a7c134bfb98e123901845f0127a5e902f", null ],
+    [ "RequestDelayedDestroy", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a3ce53da596b9f5b154f8661401424eaa", null ],
+    [ "StartCall", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#ae4f2b822d3587fe5c958f1de13518189", null ],
+    [ "UpdateCall", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#accd3a3d3213f26cefc0e051cc7992aa5", null ],
+    [ "UseMana", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a1c693ad3da0abc73e7747f613773d517", null ],
+    [ "ValidateInputs", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#ad563c5b11799d51fa18e9befa0ac811d", null ],
+    [ "CombinedData", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a6d8bbf81efdada0baa4955b05263cd5d", null ],
+    [ "DataInput", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a6b07e6fa202004a23fd7e41ed78fccc7", null ],
+    [ "HasBeenCasted", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a2a8b68514e8be6753eda887c71a1a534", null ],
+    [ "HasFinished", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a46c69ff07ae2d4731db3526d58df96e0", null ],
+    [ "Level", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a7c31a63e87870a4daa393a7b32209561", null ],
+    [ "MainType", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a91c09ecf6b911a23caeebc8c892dcf11", null ],
+    [ "MaxAvailableMana", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a822290e0d8bacbedcc16c4cce77af251", null ],
+    [ "MaxSpellMana", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#ac7cc4f4020471ec76fb66b7a76900f33", null ],
+    [ "MinSpellMana", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a7b16c30b3d899d00604d0c2724fb301d", null ],
+    [ "NormalizedMana", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a7c6852bee4ef5437fbece5aace379f11", null ],
+    [ "PrefabVisual", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#ad4064f462f013eb8e712ef703d9d0351", null ],
+    [ "UsageMana", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a5537fd2fb5b6549741c7762b828eedd5", null ],
+    [ "UsedMana", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a4a3623d6d94a20d5af3a3695f8322e51", null ],
+    [ "OnFinish", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a0256cc90f25e002be68bb9edd5a1a58b", null ],
+    [ "OnHasCasted", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#acc427b85fefdd1779f81406b80855081", null ],
+    [ "OnImpact", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#ab3fab0aa9bcf90d1bc02175f5c7324ee", null ],
+    [ "OnUpdate", "class_combat_system_1_1_spell_system_1_1_spell_behaviour.html#a2b700b3933e5262d4873b87da6cbd2d3", null ]
+];

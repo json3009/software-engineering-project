@@ -1,0 +1,23 @@
+{
+    "name": "EquipmentSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:de9654835a81f0841a97b051e2e031ac",
+        "GUID:2c8e601b956a740468239799ecacb516",
+        "GUID:3066df9621c708242ab3d21cdafeef06",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:a44b5f6bda10ed5feb2092aaacdbf030"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

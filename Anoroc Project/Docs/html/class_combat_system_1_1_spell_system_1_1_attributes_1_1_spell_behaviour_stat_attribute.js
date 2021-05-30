@@ -1,0 +1,4 @@
+var class_combat_system_1_1_spell_system_1_1_attributes_1_1_spell_behaviour_stat_attribute =
+[
+    [ "SpellBehaviourStatAttribute", "class_combat_system_1_1_spell_system_1_1_attributes_1_1_spell_behaviour_stat_attribute.html#a36135f3e062112a192ad0a427c235f4f", null ]
+];

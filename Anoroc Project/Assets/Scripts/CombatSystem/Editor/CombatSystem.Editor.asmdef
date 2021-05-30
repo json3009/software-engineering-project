@@ -1,0 +1,22 @@
+{
+    "name": "CombatSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:de9654835a81f0841a97b051e2e031ac",
+        "GUID:2c8e601b956a740468239799ecacb516",
+        "GUID:3066df9621c708242ab3d21cdafeef06",
+        "GUID:a44b5f6bda10ed5feb2092aaacdbf030",
+        "GUID:8bab3317998cd3a4a8cc1e32a073b66e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

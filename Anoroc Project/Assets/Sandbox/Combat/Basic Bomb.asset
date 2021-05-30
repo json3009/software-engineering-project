@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532def46d05a2f247b2054ac3c39f40b, type: 3}
+  m_Name: Basic Bomb
+  m_EditorClassIdentifier: 
+  _description: Test
+  _system: {fileID: 11400000, guid: 707d91b6c2f2b8b44b3277e5d49f0220, type: 2}
+  _spells:
+  - {fileID: 11400000, guid: 93d39376464b2644d8be6945e9d8081d, type: 2}
+  - {fileID: 11400000, guid: a175b3dc650abc94d8a36829a67d8f29, type: 2}

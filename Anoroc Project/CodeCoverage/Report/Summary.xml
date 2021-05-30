@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>5/16/2021 - 11:58:23 PM</Generatedon>
+    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Assemblies>13</Assemblies>
+    <Classes>130</Classes>
+    <Files>130</Files>
+    <Coveredlines>866</Coveredlines>
+    <Uncoveredlines>5775</Uncoveredlines>
+    <Coverablelines>6641</Coverablelines>
+    <Totallines>14395</Totallines>
+    <Linecoverage>13</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+  </Summary>
+  <Coverage>
+    <Assembly name="BodySystem.Editor" classes="4" coverage="0" coveredlines="0" coverablelines="187" totallines="389" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Scripts.BodySystem.BodyBaseEditor" coverage="0" coveredlines="0" coverablelines="33" totallines="63" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.BodySystem.BodyDefinitionEditor" coverage="0" coveredlines="0" coverablelines="129" totallines="236" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.BodySystem.BodyPartEditor" coverage="0" coveredlines="0" coverablelines="11" totallines="42" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.BodySystem.BodyPartFlagDrawer" coverage="0" coveredlines="0" coverablelines="14" totallines="48" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="BodySystem.Tests" classes="1" coverage="99.3" coveredlines="324" coverablelines="326" totallines="741" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="BodyDefinitionTests" coverage="99.3" coveredlines="324" coverablelines="326" totallines="741" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="CharacterSystem.Editor" classes="2" coverage="0" coveredlines="0" coverablelines="199" totallines="359" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="CharacterSystem.Editor.CharacterStatDrawer" coverage="0" coveredlines="0" coverablelines="37" totallines="75" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CharacterSystem.Editor.CharacterSystemEditor" coverage="0" coveredlines="0" coverablelines="162" totallines="284" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="CombatSystem.Editor" classes="4" coverage="0" coveredlines="0" coverablelines="530" totallines="873" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="CombatSystem.Editor.DamageDefinitionEditor" coverage="0" coveredlines="0" coverablelines="136" totallines="209" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.Editor.SpellSystem.SpellArchetypeEditor" coverage="0" coveredlines="0" coverablelines="237" totallines="386" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.Editor.SpellSystem.SpellBehaviourEditor" coverage="0" coveredlines="0" coverablelines="65" totallines="105" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.Editor.SpellSystem.SpellSystemEditor" coverage="0" coveredlines="0" coverablelines="92" totallines="173" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="EquipmentSystem.Editor" classes="6" coverage="0" coveredlines="0" coverablelines="383" totallines="797" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="EquipmentSystem.Editor.AutoImporter" coverage="0" coveredlines="0" coverablelines="44" totallines="122" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EquipmentSystem.Editor.EquipmentItemComplexEditor" coverage="0" coveredlines="0" coverablelines="31" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EquipmentSystem.Editor.EquipmentItemEditor" coverage="0" coveredlines="0" coverablelines="123" totallines="250" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EquipmentSystem.Editor.EquipmentItemSimpleEditor" coverage="0" coveredlines="0" coverablelines="24" totallines="48" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EquipmentSystem.Editor.EquipmentSetEditor" coverage="0" coveredlines="0" coverablelines="105" totallines="181" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EquipmentSystem.Editor.EquipmentSystemDrawer" coverage="0" coveredlines="0" coverablelines="56" totallines="131" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="InventorySystem.Editor" classes="1" coverage="0" coveredlines="0" coverablelines="96" totallines="168" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="InventorySystem.Editor.InventoryEquipmentEditor" coverage="0" coveredlines="0" coverablelines="96" totallines="168" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="MainScripts" classes="85" coverage="11" coveredlines="361" coverablelines="3254" totallines="7139" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="AnimationController" coverage="0" coveredlines="0" coverablelines="42" totallines="101" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="AttachGameObjectsToParticles" coverage="0" coveredlines="0" coverablelines="26" totallines="48" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="AutoOrient" coverage="0" coveredlines="0" coverablelines="43" totallines="81" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CameraRestrict" coverage="7.8" coveredlines="3" coverablelines="38" totallines="85" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CharacterSystem.Character" coverage="15.6" coveredlines="20" coverablelines="128" totallines="278" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CharacterSystem.CharacterStat[TBaseType]" coverage="28.3" coveredlines="15" coverablelines="53" totallines="112" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CharacterSystem.CharacterStats" coverage="0" coveredlines="0" coverablelines="2" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.Attributes.SpellBehaviourInputAttribute" coverage="0" coveredlines="0" coverablelines="1" totallines="11" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.Attributes.SpellBehaviourStatAttribute" coverage="0" coveredlines="0" coverablelines="3" totallines="12" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.Behaviours.Explosion" coverage="0" coveredlines="0" coverablelines="27" totallines="61" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.Behaviours.Projectile" coverage="0" coveredlines="0" coverablelines="36" totallines="103" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.Spell" coverage="0" coveredlines="0" coverablelines="18" totallines="47" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.SpellArchetype" coverage="0" coveredlines="0" coverablelines="55" totallines="118" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.SpellArchetypeLevelData" coverage="0" coveredlines="0" coverablelines="30" totallines="61" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.SpellArchetypeLevels" coverage="0" coveredlines="0" coverablelines="46" totallines="80" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.SpellBehaviour" coverage="0" coveredlines="0" coverablelines="88" totallines="185" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.SpellStatTraits" coverage="0" coveredlines="0" coverablelines="1" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.SpellSystem" coverage="0" coveredlines="0" coverablelines="4" totallines="123" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.SpellVisual" coverage="0" coveredlines="0" coverablelines="15" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.SpellSystem.Visuals.ProjectileVisual" coverage="0" coveredlines="0" coverablelines="2" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.Stats.Attributes.DamageTypeAttribute" coverage="0" coveredlines="0" coverablelines="13" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="CombatSystem.Stats.Modifiers.DamageTypeModifier" coverage="0" coveredlines="0" coverablelines="48" totallines="83" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DialogSystem.DialogLine" coverage="0" coveredlines="0" coverablelines="2" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EnemySystem.BaseEnemyAI" coverage="0" coveredlines="0" coverablelines="48" totallines="106" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EquipmentSystem.EquipmentItem" coverage="0" coveredlines="0" coverablelines="15" totallines="73" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EquipmentSystem.EquipmentItemComplex" coverage="0" coveredlines="0" coverablelines="18" totallines="43" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EquipmentSystem.EquipmentItemSimple" coverage="0" coveredlines="0" coverablelines="26" totallines="50" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EquipmentSystem.EquipmentManager" coverage="1.9" coveredlines="2" coverablelines="102" totallines="237" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EquipmentSystem.EquipmentSet" coverage="0" coveredlines="0" coverablelines="8" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GameOverScript" coverage="0" coveredlines="0" coverablelines="7" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GeneralMenu" coverage="0" coveredlines="0" coverablelines="5" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GenericMove" coverage="4.6" coveredlines="3" coverablelines="64" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GraphicsMenu" coverage="0" coveredlines="0" coverablelines="31" totallines="74" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GridSystem.GridManager" coverage="0" coveredlines="0" coverablelines="132" totallines="228" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GridSystem.GridObject" coverage="0" coveredlines="0" coverablelines="26" totallines="55" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GridSystemWrapper" coverage="0" coveredlines="0" coverablelines="17" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="HairHider" coverage="47.3" coveredlines="9" coverablelines="19" totallines="53" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="InventorySystem.InventoryDrop" coverage="0" coveredlines="0" coverablelines="26" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="InventorySystem.InventoryEquipment" coverage="0" coveredlines="0" coverablelines="52" totallines="115" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="InventorySystem.InventoryManager" coverage="3.4" coveredlines="2" coverablelines="58" totallines="136" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="InventorySystem.InventoryObject" coverage="0" coveredlines="0" coverablelines="6" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="InventorySystem.UI.EquipmentSlotUI" coverage="0" coveredlines="0" coverablelines="43" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="InventorySystem.UI.EquipmentUI" coverage="0" coveredlines="0" coverablelines="50" totallines="100" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="InventorySystem.UI.InventorySlot" coverage="0" coveredlines="0" coverablelines="31" totallines="70" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="InventorySystem.UI.InventoryUI" coverage="0" coveredlines="0" coverablelines="33" totallines="68" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="MainMenu" coverage="0" coveredlines="0" coverablelines="15" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="PathfinderSystem.FindPathJob" coverage="0" coveredlines="0" coverablelines="120" totallines="224" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="PathfinderSystem.PathFinder" coverage="9.4" coveredlines="16" coverablelines="169" totallines="340" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="PathfinderSystem.PathNode" coverage="0" coveredlines="0" coverablelines="28" totallines="102" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="PauseMenu" coverage="2.1" coveredlines="1" coverablelines="46" totallines="88" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="PlayFabManager" coverage="0" coveredlines="0" coverablelines="58" totallines="146" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.BodySystem.BodyBase" coverage="3.2" coveredlines="1" coverablelines="31" totallines="68" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.BodySystem.BodyDefinition" coverage="96.4" coveredlines="109" coverablelines="113" totallines="316" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.BodySystem.BodyFactory" coverage="0" coveredlines="0" coverablelines="111" totallines="157" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.BodySystem.BodyPart" coverage="20" coveredlines="1" coverablelines="5" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.BodySystem.BodyPartFlag" coverage="72.5" coveredlines="29" coverablelines="40" totallines="83" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.BodySystem.BodyRenderOptions" coverage="0.9" coveredlines="1" coverablelines="102" totallines="258" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.CharacterSystem.Character" coverage="19.4" coveredlines="13" coverablelines="67" totallines="278" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.CombatSystem.DamageDefinition" coverage="0" coveredlines="0" coverablelines="66" totallines="143" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.CombatSystem.DamageType" coverage="0" coveredlines="0" coverablelines="7" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.EquipmentSystem.EquipmentItem" coverage="0" coveredlines="0" coverablelines="15" totallines="0" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.EquipmentSystem.EquipmentItemComplex" coverage="0" coveredlines="0" coverablelines="18" totallines="0" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.EquipmentSystem.EquipmentItemSimple" coverage="0" coveredlines="0" coverablelines="26" totallines="0" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.EquipmentSystem.EquipmentSystem" coverage="1.4" coveredlines="1" coverablelines="68" totallines="0" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Scripts.EventSystem.GlobalEventSystem" coverage="0" coveredlines="0" coverablelines="65" totallines="128" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatAttribute[TBaseType,TModifier]" coverage="47.1" coveredlines="58" coverablelines="123" totallines="242" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatAttributes.FloatAttribute" coverage="97" coveredlines="33" coverablelines="34" totallines="57" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatAttributes.IntAttribute" coverage="0" coveredlines="0" coverablelines="10" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatAttributes.PositionAttribute" coverage="0" coveredlines="0" coverablelines="9" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatAttributes.TagAttribute" coverage="0" coveredlines="0" coverablelines="5" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatAttributes.Vector2Attribute" coverage="0" coveredlines="0" coverablelines="8" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatData" coverage="0" coveredlines="0" coverablelines="82" totallines="139" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatModifier[TBaseType]" coverage="61.9" coveredlines="26" coverablelines="42" totallines="96" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatModifiers.BoolModifier" coverage="0" coveredlines="0" coverablelines="13" totallines="33" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatModifiers.CurveModifier" coverage="0" coveredlines="0" coverablelines="17" totallines="39" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatModifiers.FloatModifier" coverage="43.9" coveredlines="18" coverablelines="41" totallines="117" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatModifiers.IntModifier" coverage="0" coveredlines="0" coverablelines="11" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatModifiers.ObjectModifier[T]" coverage="0" coveredlines="0" coverablelines="14" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatModifiers.PositionModifier" coverage="0" coveredlines="0" coverablelines="21" totallines="60" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatModifiers.TagModifier" coverage="0" coveredlines="0" coverablelines="9" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatModifiers.Vector2Modifier" coverage="0" coveredlines="0" coverablelines="6" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatTraits" coverage="0" coveredlines="0" coverablelines="50" totallines="106" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.StatType" coverage="0" coveredlines="0" coverablelines="32" totallines="79" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="TimerController" coverage="0" coveredlines="0" coverablelines="12" totallines="45" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="TransparencySortGraphicsHelper" coverage="0" coveredlines="0" coverablelines="7" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Sandbox" classes="4" coverage="0" coveredlines="0" coverablelines="68" totallines="204" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Sandbox.UITestScript" coverage="0" coveredlines="0" coverablelines="3" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="SpellTest" coverage="0" coveredlines="0" coverablelines="19" totallines="85" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="tempFix" coverage="0" coveredlines="0" coverablelines="5" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="testExplosion" coverage="0" coveredlines="0" coverablelines="41" totallines="86" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Sandbox.Editor" classes="1" coverage="0" coveredlines="0" coverablelines="11" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="TestUI" coverage="0" coveredlines="0" coverablelines="11" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="StatSystem.Editor" classes="2" coverage="0" coveredlines="0" coverablelines="81" totallines="173" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="StatSystem.Editor.StatDataDrawer" coverage="0" coveredlines="0" coverablelines="53" totallines="108" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StatSystem.Editor.StatTraitsEditor" coverage="0" coveredlines="0" coverablelines="28" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="StatSystem.Tests" classes="1" coverage="100" coveredlines="137" coverablelines="137" totallines="401" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="StatSystem.Tests.StatAttributeTests" coverage="100" coveredlines="137" coverablelines="137" totallines="401" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Utilities" classes="11" coverage="8.8" coveredlines="44" coverablelines="496" totallines="1320" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Utilities.Attributes.InspectorButtonAttribute" coverage="0" coveredlines="0" coverablelines="8" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.Collections.ObservableList[T]" coverage="0" coveredlines="0" coverablelines="76" totallines="194" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.Collections.SerializableDictionary[TKey,TValue]" coverage="81.8" coveredlines="18" coverablelines="22" totallines="72" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.Extensions.Linq" coverage="0" coveredlines="0" coverablelines="16" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.Extensions.PropertyHelper" coverage="0" coveredlines="0" coverablelines="20" totallines="42" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.FileHelper" coverage="0" coveredlines="0" coverablelines="97" totallines="253" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.MonoSingleton[T]" coverage="14.8" coveredlines="4" coverablelines="27" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.Reflection" coverage="0" coveredlines="0" coverablelines="164" totallines="436" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.Rigidbody2DExtension" coverage="0" coveredlines="0" coverablelines="14" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.SerializableGUID" coverage="37.5" coveredlines="12" coverablelines="32" totallines="61" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.String" coverage="50" coveredlines="10" coverablelines="20" totallines="95" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Utilities.Editor" classes="8" coverage="0" coveredlines="0" coverablelines="873" totallines="2077" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Frame" coverage="0" coveredlines="0" coverablelines="111" totallines="279" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.Editor.InspectorButtonPropertyDrawer" coverage="0" coveredlines="0" coverablelines="15" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.Extensions.TextureHelper" coverage="0" coveredlines="0" coverablelines="9" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.Extensions.UIElementsHelper" coverage="0" coveredlines="0" coverablelines="19" totallines="95" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.UI.BoundList[T]" coverage="0" coveredlines="0" coverablelines="46" totallines="87" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.UI.BoundListView[T]" coverage="0" coveredlines="0" coverablelines="619" totallines="1365" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.UI.DragableElement[T]" coverage="0" coveredlines="0" coverablelines="52" totallines="123" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Utilities.UI.ReferenceLink" coverage="0" coveredlines="0" coverablelines="2" totallines="76" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

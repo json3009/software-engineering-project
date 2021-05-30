@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b84e3a8624afc8146897c29c255e2adf, type: 3}
+  m_Name: Bandit Head
+  m_EditorClassIdentifier: 
+  _name: 
+  _icon: {fileID: 21300024, guid: 932eb8d5023602e45bd0f3d4e1206516, type: 3}
+  _generatedIcon: {fileID: 0}
+  _items:
+    values:
+    - {fileID: 11400000, guid: 94b6c18e200b2164bb9bb77a3408c4be, type: 2}
+    _sets: []

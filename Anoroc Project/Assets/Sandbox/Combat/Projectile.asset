@@ -1,0 +1,1518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b931ddd08242b8e4290b2fbe088137d4, type: 3}
+  m_Name: Projectile
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _level
+      Entry: 7
+      Data: 0|CombatSystem.SpellSystem.SpellArchetypeLevels, MainScripts
+    - Name: levels
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[CombatSystem.SpellSystem.SpellArchetypeLevelData,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 2|CombatSystem.SpellSystem.SpellArchetypeLevelData, MainScripts
+    - Name: _level
+      Entry: 3
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 3|StatSystem.StatData, MainScripts
+    - Name: _modifiers
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[StatSystem.StatData+DataWrapper,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 5|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 7
+      Data: 6|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _manaUsage
+    - Name: _name
+      Entry: 1
+      Data: Mana Usage
+    - Name: _desc
+      Entry: 1
+      Data: Determines how much Mana is required to cast spell
+    - Name: _type
+      Entry: 7
+      Data: 7|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _attribute
+      Entry: 7
+      Data: 8|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 10|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 10
+    - Name: _order
+      Entry: 3
+      Data: 0
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 7
+      Data: 12|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _minManaUsage
+    - Name: _name
+      Entry: 1
+      Data: Min Mana Usage
+    - Name: _desc
+      Entry: 1
+      Data: Determines the minimum Mana required to cast spell
+    - Name: _type
+      Entry: 9
+      Data: 7
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _attribute
+      Entry: 7
+      Data: 13|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 15|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 5
+    - Name: _order
+      Entry: 3
+      Data: 0
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 7
+      Data: 17|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _range
+    - Name: _name
+      Entry: 1
+      Data: Range
+    - Name: _desc
+      Entry: 1
+      Data: Determines the range of the projectile
+    - Name: _type
+      Entry: 9
+      Data: 7
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _attribute
+      Entry: 7
+      Data: 18|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 20|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 10
+    - Name: _order
+      Entry: 3
+      Data: 0
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 7
+      Data: 22|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _speed
+    - Name: _name
+      Entry: 1
+      Data: Speed
+    - Name: _desc
+      Entry: 1
+      Data: Determines the speed of the projectile
+    - Name: _type
+      Entry: 9
+      Data: 7
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _attribute
+      Entry: 7
+      Data: 23|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 24|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 25|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 4
+    - Name: _order
+      Entry: 3
+      Data: 0
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _title
+      Entry: 1
+      Data: Beginner
+    - Name: _description
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|CombatSystem.SpellSystem.SpellArchetypeLevelData, MainScripts
+    - Name: _level
+      Entry: 3
+      Data: 1
+    - Name: _modifiers
+      Entry: 7
+      Data: 27|StatSystem.StatData, MainScripts
+    - Name: _modifiers
+      Entry: 7
+      Data: 28|System.Collections.Generic.List`1[[StatSystem.StatData+DataWrapper,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 29|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 7
+      Data: 30|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _manaUsage
+    - Name: _name
+      Entry: 1
+      Data: Mana Usage
+    - Name: _desc
+      Entry: 1
+      Data: Determines how much Mana is required to cast spell
+    - Name: _type
+      Entry: 9
+      Data: 7
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _attribute
+      Entry: 7
+      Data: 31|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 32|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 33|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: -0.05
+    - Name: _order
+      Entry: 3
+      Data: 200
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 7
+      Data: 35|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _range
+    - Name: _name
+      Entry: 1
+      Data: Range
+    - Name: _desc
+      Entry: 1
+      Data: Determines the range of the projectile
+    - Name: _type
+      Entry: 9
+      Data: 7
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _attribute
+      Entry: 7
+      Data: 36|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 38|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 2
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _title
+      Entry: 1
+      Data: Novice
+    - Name: _description
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 39|CombatSystem.SpellSystem.SpellArchetypeLevelData, MainScripts
+    - Name: _level
+      Entry: 3
+      Data: 2
+    - Name: _modifiers
+      Entry: 7
+      Data: 40|StatSystem.StatData, MainScripts
+    - Name: _modifiers
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[StatSystem.StatData+DataWrapper,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 42|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 9
+      Data: 30
+    - Name: _attribute
+      Entry: 7
+      Data: 43|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 44|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 45|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: -2
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 9
+      Data: 35
+    - Name: _attribute
+      Entry: 7
+      Data: 47|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 48|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 49|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 2
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _title
+      Entry: 1
+      Data: Intermediate
+    - Name: _description
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|CombatSystem.SpellSystem.SpellArchetypeLevelData, MainScripts
+    - Name: _level
+      Entry: 3
+      Data: 3
+    - Name: _modifiers
+      Entry: 7
+      Data: 51|StatSystem.StatData, MainScripts
+    - Name: _modifiers
+      Entry: 7
+      Data: 52|System.Collections.Generic.List`1[[StatSystem.StatData+DataWrapper,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 53|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 9
+      Data: 30
+    - Name: _attribute
+      Entry: 7
+      Data: 54|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 55|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 56|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: -1
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 57|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 9
+      Data: 35
+    - Name: _attribute
+      Entry: 7
+      Data: 58|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 59|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 60|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 1
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 61|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 7
+      Data: 62|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _speed
+    - Name: _name
+      Entry: 1
+      Data: Speed
+    - Name: _desc
+      Entry: 1
+      Data: Determines the speed of the projectile
+    - Name: _type
+      Entry: 9
+      Data: 7
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _attribute
+      Entry: 7
+      Data: 63|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 64|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 65|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 0.1
+    - Name: _order
+      Entry: 3
+      Data: 200
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _title
+      Entry: 1
+      Data: Proficient
+    - Name: _description
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|CombatSystem.SpellSystem.SpellArchetypeLevelData, MainScripts
+    - Name: _level
+      Entry: 3
+      Data: 4
+    - Name: _modifiers
+      Entry: 7
+      Data: 67|StatSystem.StatData, MainScripts
+    - Name: _modifiers
+      Entry: 7
+      Data: 68|System.Collections.Generic.List`1[[StatSystem.StatData+DataWrapper,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 69|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 9
+      Data: 62
+    - Name: _attribute
+      Entry: 7
+      Data: 70|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 71|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 72|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 1
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 73|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 9
+      Data: 35
+    - Name: _attribute
+      Entry: 7
+      Data: 74|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 75|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 76|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 3
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _title
+      Entry: 1
+      Data: Expert
+    - Name: _description
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 77|CombatSystem.SpellSystem.SpellArchetypeLevelData, MainScripts
+    - Name: _level
+      Entry: 3
+      Data: 5
+    - Name: _modifiers
+      Entry: 7
+      Data: 78|StatSystem.StatData, MainScripts
+    - Name: _modifiers
+      Entry: 7
+      Data: 79|System.Collections.Generic.List`1[[StatSystem.StatData+DataWrapper,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 80|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 9
+      Data: 30
+    - Name: _attribute
+      Entry: 7
+      Data: 81|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 82|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 83|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: -0.1
+    - Name: _order
+      Entry: 3
+      Data: 200
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 84|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 9
+      Data: 35
+    - Name: _attribute
+      Entry: 7
+      Data: 85|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 86|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 87|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 2
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _title
+      Entry: 1
+      Data: Master
+    - Name: _description
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 88|CombatSystem.SpellSystem.SpellArchetypeLevelData, MainScripts
+    - Name: _level
+      Entry: 3
+      Data: 6
+    - Name: _modifiers
+      Entry: 7
+      Data: 89|StatSystem.StatData, MainScripts
+    - Name: _modifiers
+      Entry: 7
+      Data: 90|System.Collections.Generic.List`1[[StatSystem.StatData+DataWrapper,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 91|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 9
+      Data: 30
+    - Name: _attribute
+      Entry: 7
+      Data: 92|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 93|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 94|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: -3
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 95|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 7
+      Data: 96|StatSystem.StatType, MainScripts
+    - Name: _id
+      Entry: 1
+      Data: _minManaUsage
+    - Name: _name
+      Entry: 1
+      Data: Min Mana Usage
+    - Name: _desc
+      Entry: 1
+      Data: Determines the minimum Mana required to cast spell
+    - Name: _type
+      Entry: 9
+      Data: 7
+    - Name: _hidden
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _attribute
+      Entry: 7
+      Data: 97|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 98|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 99|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: -2
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 100|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 9
+      Data: 35
+    - Name: _attribute
+      Entry: 7
+      Data: 101|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 102|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 103|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 2
+    - Name: _order
+      Entry: 3
+      Data: 300
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 104|StatSystem.StatData+DataWrapper, MainScripts
+    - Name: _type
+      Entry: 9
+      Data: 62
+    - Name: _attribute
+      Entry: 7
+      Data: 105|StatSystem.StatAttributes.FloatAttribute, MainScripts
+    - Name: _baseValue
+      Entry: 4
+      Data: 0
+    - Name: _modifiers
+      Entry: 7
+      Data: 106|System.Collections.Generic.List`1[[StatSystem.StatModifiers.FloatModifier,
+        MainScripts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 107|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 2
+    - Name: _order
+      Entry: 3
+      Data: 300
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _title
+      Entry: 1
+      Data: GOD
+    - Name: _description
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _behaviour
+      Entry: 7
+      Data: 108|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: CombatSystem.SpellSystem.Behaviours.Projectile, MainScripts
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _behaviourModifiers
+      Entry: 7
+      Data: 109|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[StatSystem.IStatModifier,
+        MainScripts]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 110|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: autoFollow
+    - Name: $v
+      Entry: 7
+      Data: 111|StatSystem.StatModifiers.BoolModifier, MainScripts
+    - Name: _value
+      Entry: 5
+      Data: false
+    - Name: _order
+      Entry: 3
+      Data: 0
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _visualModifiers
+      Entry: 7
+      Data: 112|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[StatSystem.IStatModifier,
+        MainScripts]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 113|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: spriteToDisplay
+    - Name: $v
+      Entry: 7
+      Data: 114|StatSystem.StatModifiers.ObjectModifier`1[[UnityEngine.Sprite, UnityEngine.CoreModule]],
+        MainScripts
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: _order
+      Entry: 3
+      Data: 0
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: rangeToMana
+    - Name: $v
+      Entry: 7
+      Data: 115|StatSystem.StatModifiers.CurveModifier, MainScripts
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: _order
+      Entry: 3
+      Data: 0
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: damageToSize
+    - Name: $v
+      Entry: 7
+      Data: 116|StatSystem.StatModifiers.FloatModifier, MainScripts
+    - Name: _value
+      Entry: 4
+      Data: 1
+    - Name: _order
+      Entry: 3
+      Data: 100
+    - Name: _source
+      Entry: 6
+      Data: 
+    - Name: _type
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _name: Meteor
+  _desc: 'Meteor is an average grade archetype which slowly delivers a playload over
+    a short distance.
+
+    Athough not great at early levels. A willing and persistent
+    Mage can improve meteor to a GOD level projectile'
+  _prefabVisual: {fileID: 3158314102366718378, guid: f757a1d4a4ee4394bbee4306ec785b18, type: 3}
+  _system: {fileID: 11400000, guid: 707d91b6c2f2b8b44b3277e5d49f0220, type: 2}

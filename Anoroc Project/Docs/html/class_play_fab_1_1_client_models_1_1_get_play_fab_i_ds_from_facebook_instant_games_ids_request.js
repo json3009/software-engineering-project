@@ -1,0 +1,4 @@
+var class_play_fab_1_1_client_models_1_1_get_play_fab_i_ds_from_facebook_instant_games_ids_request =
+[
+    [ "FacebookInstantGamesIds", "class_play_fab_1_1_client_models_1_1_get_play_fab_i_ds_from_facebook_instant_games_ids_request.html#adbe08a46cee4da2f73413be41d7da78f", null ]
+];

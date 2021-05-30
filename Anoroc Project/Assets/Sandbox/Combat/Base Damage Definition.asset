@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e5c152742861148bcc1c43ba1d4758, type: 3}
+  m_Name: Base Damage Definition
+  m_EditorClassIdentifier: 
+  _types:
+  - _id:
+      Value: 05e6d09f-7228-4e21-9bec-6c65d1a547e7
+    _name: Math
+    _icon: {fileID: 0}
+    _textures: []
+    _color: {r: 31.999996, g: 31.999996, b: 31.999996, a: 1}
+  - _id:
+      Value: 4dd26b10-2f86-432f-8c05-0de010184a46
+    _name: Science
+    _icon: {fileID: 0}
+    _textures: []
+    _color: {r: 0, g: 37.192104, b: 0, a: 1}
+  - _id:
+      Value: b1490b7b-17e5-4921-aaf2-5cb6eccbf3ed
+    _name: Economics
+    _icon: {fileID: 0}
+    _textures: []
+    _color: {r: 23.968628, g: 0, b: 23.968628, a: 1}
+  - _id:
+      Value: b4ef8c84-eb34-4bc4-953e-7da32a51989a
+    _name: Law
+    _icon: {fileID: 0}
+    _textures: []
+    _color: {r: 0, g: 0, b: 23.968628, a: 1}
+  - _id:
+      Value: 193c67e5-9cdf-4c56-a399-2d745a15e49a
+    _name: Languages
+    _icon: {fileID: 0}
+    _textures: []
+    _color: {r: 23.968628, g: 0, b: 0, a: 1}
+  _damageMatrix:
+    keys:
+    - _attacker:
+        Value: 05e6d09f-7228-4e21-9bec-6c65d1a547e7
+      _defender:
+        Value: 05e6d09f-7228-4e21-9bec-6c65d1a547e7
+    - _attacker:
+        Value: 4dd26b10-2f86-432f-8c05-0de010184a46
+      _defender:
+        Value: 4dd26b10-2f86-432f-8c05-0de010184a46
+    - _attacker:
+        Value: b1490b7b-17e5-4921-aaf2-5cb6eccbf3ed
+      _defender:
+        Value: b1490b7b-17e5-4921-aaf2-5cb6eccbf3ed
+    - _attacker:
+        Value: b4ef8c84-eb34-4bc4-953e-7da32a51989a
+      _defender:
+        Value: b4ef8c84-eb34-4bc4-953e-7da32a51989a
+    - _attacker:
+        Value: 4dd26b10-2f86-432f-8c05-0de010184a46
+      _defender:
+        Value: b1490b7b-17e5-4921-aaf2-5cb6eccbf3ed
+    - _attacker:
+        Value: 05e6d09f-7228-4e21-9bec-6c65d1a547e7
+      _defender:
+        Value: 4dd26b10-2f86-432f-8c05-0de010184a46
+    - _attacker:
+        Value: 05e6d09f-7228-4e21-9bec-6c65d1a547e7
+      _defender:
+        Value: b4ef8c84-eb34-4bc4-953e-7da32a51989a
+    - _attacker:
+        Value: 4dd26b10-2f86-432f-8c05-0de010184a46
+      _defender:
+        Value: b4ef8c84-eb34-4bc4-953e-7da32a51989a
+    - _attacker:
+        Value: b4ef8c84-eb34-4bc4-953e-7da32a51989a
+      _defender:
+        Value: 4dd26b10-2f86-432f-8c05-0de010184a46
+    - _attacker:
+        Value: 05e6d09f-7228-4e21-9bec-6c65d1a547e7
+      _defender:
+        Value: b1490b7b-17e5-4921-aaf2-5cb6eccbf3ed
+    - _attacker:
+        Value: 4dd26b10-2f86-432f-8c05-0de010184a46
+      _defender:
+        Value: 193c67e5-9cdf-4c56-a399-2d745a15e49a
+    - _attacker:
+        Value: b1490b7b-17e5-4921-aaf2-5cb6eccbf3ed
+      _defender:
+        Value: 05e6d09f-7228-4e21-9bec-6c65d1a547e7
+    - _attacker:
+        Value: b1490b7b-17e5-4921-aaf2-5cb6eccbf3ed
+      _defender:
+        Value: 4dd26b10-2f86-432f-8c05-0de010184a46
+    - _attacker:
+        Value: b1490b7b-17e5-4921-aaf2-5cb6eccbf3ed
+      _defender:
+        Value: 193c67e5-9cdf-4c56-a399-2d745a15e49a
+    - _attacker:
+        Value: b4ef8c84-eb34-4bc4-953e-7da32a51989a
+      _defender:
+        Value: 05e6d09f-7228-4e21-9bec-6c65d1a547e7
+    - _attacker:
+        Value: b4ef8c84-eb34-4bc4-953e-7da32a51989a
+      _defender:
+        Value: 193c67e5-9cdf-4c56-a399-2d745a15e49a
+    - _attacker:
+        Value: 193c67e5-9cdf-4c56-a399-2d745a15e49a
+      _defender:
+        Value: 05e6d09f-7228-4e21-9bec-6c65d1a547e7
+    - _attacker:
+        Value: 193c67e5-9cdf-4c56-a399-2d745a15e49a
+      _defender:
+        Value: b1490b7b-17e5-4921-aaf2-5cb6eccbf3ed
+    - _attacker:
+        Value: 193c67e5-9cdf-4c56-a399-2d745a15e49a
+      _defender:
+        Value: b4ef8c84-eb34-4bc4-953e-7da32a51989a
+    - _attacker:
+        Value: 193c67e5-9cdf-4c56-a399-2d745a15e49a
+      _defender:
+        Value: 193c67e5-9cdf-4c56-a399-2d745a15e49a
+    values:
+    - 1.5
+    - 1.5
+    - 1.5
+    - 1.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 1.5

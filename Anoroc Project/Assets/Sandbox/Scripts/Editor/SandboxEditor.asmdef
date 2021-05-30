@@ -1,0 +1,21 @@
+{
+    "name": "Sandbox.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:de9654835a81f0841a97b051e2e031ac",
+        "GUID:2c8e601b956a740468239799ecacb516",
+        "GUID:3066df9621c708242ab3d21cdafeef06",
+        "GUID:b7bf913376c2b9a4587a28b8389d9ed6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

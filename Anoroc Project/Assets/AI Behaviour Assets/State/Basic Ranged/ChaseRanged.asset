@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f65f029b4d45242b32596161a6cff0, type: 3}
+  m_Name: ChaseRanged
+  m_EditorClassIdentifier: 
+  _actions:
+  - {fileID: 11400000, guid: f2feb235fd65b2b47b5da82b173fdcdb, type: 2}
+  - {fileID: 11400000, guid: 605cf437ffd77754a9855e4c78d47cc4, type: 2}
+  _transitions:
+  - _name: Player in sight
+    _decision: {fileID: 11400000, guid: 851d605a039bd25469704e5096c6886b, type: 2}
+    _trueState: {fileID: 0}
+    _falseState: {fileID: 11400000, guid: 02bd376e65dc920488f03157fa3c65a3, type: 2}
+  - _name: Enemy in range for ranged attack
+    _decision: {fileID: 11400000, guid: ef95cc33eb7eb0f4db2cf0e6b0af4c40, type: 2}
+    _trueState: {fileID: 11400000, guid: 891e2ab7d4ded2d49b6a149dced19877, type: 2}
+    _falseState: {fileID: 0}

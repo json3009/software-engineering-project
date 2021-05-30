@@ -1,0 +1,19 @@
+{
+    "name": "Sandbox",
+    "rootNamespace": "",
+    "references": [
+        "GUID:de9654835a81f0841a97b051e2e031ac",
+        "GUID:3066df9621c708242ab3d21cdafeef06",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:a44b5f6bda10ed5feb2092aaacdbf030"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
